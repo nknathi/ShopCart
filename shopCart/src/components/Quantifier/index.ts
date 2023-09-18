@@ -1,1 +1,1 @@
-export { Quantifier } from './Quantifier';
+export { Quantifier } from './Quantifier.tsx';

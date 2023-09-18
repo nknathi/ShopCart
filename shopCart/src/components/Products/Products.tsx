@@ -3,7 +3,7 @@ import useLocalStorageState from "use-local-storage-state";
 
 import { CurrencyFormatter } from '../CurrencyFormatter';
 import classes from './products.module.scss';
-import { Loader } from '../Loader';
+import { Loader } from '../Loader/Loader';
 
 const API_URL = 'https://dummyjson.com/products';
 

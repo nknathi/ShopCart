@@ -1,2 +1,2 @@
-// eport TotalPrice component
+// export TotalPrice component
 export { TotalPrice } from './TotalPrice.tsx';

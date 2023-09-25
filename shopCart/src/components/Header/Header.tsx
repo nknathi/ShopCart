@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 // managing local storage state
 import useLocalStorageState from 'use-local-storage-state';
 
-import logo from '/logo.svg';
 // imports styles
 import classes from './header.module.scss'; 
 
@@ -72,7 +71,7 @@ export const Header : FunctionComponent = () => {
             <div>
                 // The header contains a link to the home page with an image logo and a CartWidget component that displays the number of products in the cart
                 <Link to="/">
-                    <img src={logo} className={classes.logo} alt="Shopping Cart Application" />
+                    
                 </Link>
             </div>
             <div>

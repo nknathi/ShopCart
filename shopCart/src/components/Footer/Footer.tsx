@@ -1,10 +1,18 @@
+// FunctionComponent type from the "react" library. This type is used to define a functional component.
 import { FunctionComponent } from "react";
+// import styles
 import classes from "./footer.module.scss";
+// imports the contents of the "package.json" file
+// used to retrieve information about the project, such as its name and version.
 import packageJson from '../../../package.json';
 
+// functional component named Footer
+// It is of type FunctionComponent, which means it's a React functional component that takes no props.
 export const Footer: FunctionComponent = () => {
+    // It calculates the current year using JavaScript's Date object. 
     const currentYear = new Date().getFullYear();
 
+    // This function returns JSX code that defines the structure and content of the Footer component.
     return (
         <footer className={classes.footer} data-cy="footer">
             <ul>
